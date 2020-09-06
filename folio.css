@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.4;
+    color: #333;
+    overflow-x: hidden;
+    padding-left: 5px;
+}
+container{
+    max-width: 1100px;
+    margin: auto;
+}
+text-primary{
+    color: #3693ff;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+
+}
+h1{
+    color: #333;
+    background-color: #3693ff;
+
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+
+}
+#navbar h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+#navbar li a{
+text-decoration: none;
+color: #fff;
+padding: 1rem;
+font-size: 1.3rem;
+margin: 0.5rem;
+border-radius: 5px;
+transition: background-color 0.5s;
+
+}
+#navbar li a:hover{
+    background-color: #3693ff;
+
+}
+.head-content{
+    display: flex;
+    background-color: #333;
+}
+.name{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+.head-content img{
+    margin: 2px solid #3963ff;
+    border-radius: 50%;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.head-content img:hover{
+    background-color: #333;
+}
+hr{
+    color: #3963ff;
+}
+.About{
+    background-color: #3963ff;
+}
+.About h2{
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+.About p{
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+}
+.My_Projects {
+    color: #3963ff;
+    background-color: #333;
+
+}
+.My_Projects h2 {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #fff;
+}
+.My_projects p {
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+}
+@media screen and (max-width: 1060px){
+    #primary {width:67%;}
+    #secondary {width:30%; margin-left: 3%;}
+
+}
+@media screen and (max-width: 768px){
+    #primary {width:100%;}
+    #secondary {width:100%; margin: 0; border: none;}
+
+}
+.contacts {
+    text-align: center;
+    background-color:#3963ff;
+}
+.contacts h2 {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #333;
+}
+.contacts p {
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+}
+.contacts ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+footer{
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #333;
+    color: #3963ff;
+
+}
